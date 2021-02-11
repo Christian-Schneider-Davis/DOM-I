@@ -40,3 +40,11 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+const headerPic = document.querySelector("cta-img"); 
+headerPic.setAttribute('src', "C:\Users\black\Desktop\GitHub\DOM-I\img\header-img.png")
+
+const ctaText = document.querySelector('h1');
+ctaText.textContent = "DOM Is Awesome" 
+
+test
