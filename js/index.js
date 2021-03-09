@@ -41,11 +41,11 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
-//const headerPic = document.querySelector("cta-img"); 
-//headerPic.setAttribute('src', "C:\Users\black\Desktop\GitHub\DOM-I\img\header-img.png")
+const headerPic = document.querySelector(".cta-img"); 
+headerPic.setAttribute('src', "C:\Users\black\Desktop\GitHub\DOM-I\img\header-img.png")
 
-const featuresText = document.querySelector('#top-content p');
+const featuresText = document.querySelector('.top-content p');
 
 
-const ctaPic = document.querySelector('#cta-img img');
+const ctaPic = document.querySelector('.cta-img img');
 ctaPic.setAttribute('src', "img/header-img.png");
