@@ -39,13 +39,25 @@ const siteContent = {
 
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
-logo.setAttribute('src', siteContent["nav"]["img-src"])
-
-const headerPic = document.querySelector(".cta-img"); 
-headerPic.setAttribute('src', "C:\Users\black\Desktop\GitHub\DOM-I\img\header-img.png")
-
-const featuresText = document.querySelector('.top-content p');
+ logo.setAttribute('src', siteContent["nav"]["img-src"]);
 
 
-const ctaPic = document.querySelector('.cta-img img');
-ctaPic.setAttribute('src', "img/header-img.png");
+// img
+const section = document.querySelector
+
+// main section
+const mainSect = document.querySelector("#main-content");
+
+const navSelector = document.getElementsByClassName(".header a");
+const navContent = document.createElement("a");
+const textNode = document.createElement(Services);
+navContent.appendChild(textNode);
+
+// const headerPic = document.querySelector(".cta-img"); 
+// headerPic.setAttribute('src', "C:\Users\black\Desktop\GitHub\DOM-I\img\header-img.png")
+
+// const featuresText = document.querySelector('.top-content p');
+
+
+// const ctaPic = document.querySelector('.cta-img img');
+// ctaPic.setAttribute('src', "img/header-img.png");
