@@ -45,16 +45,37 @@ let logo = document.getElementById("logo-img");
 // img
 const section = document.querySelector
 
-// main section
-const mainSect = document.querySelector("#main-content");
+// main and top section
+const topSect = document.querySelector("#top-content");
 
-const navSelector = document.getElementsByClassName(".header a");
-const navContent = document.createElement("a");
-const textNode = document.createElement(Services);
-navContent.appendChild(textNode);
+
+
+
+
+// add p function
+
+const addP = document.createElement("p");
+
+//add h1 function
+
+const headerOne = document.createElement("h1");
+
+// add h4 function
+
+const headerFour = document.createElement("h4");
+
+// add img function
+
+
+// header section
+// const navSelector = document.getElementsByClassName(".header a");
+// const navContent = document.createElement("a");
+// const textNode = document.createElement(Services);
+// navContent.appendChild(textNode);
 
 // const headerPic = document.querySelector(".cta-img"); 
 // headerPic.setAttribute('src', "C:\Users\black\Desktop\GitHub\DOM-I\img\header-img.png")
+
 
 // const featuresText = document.querySelector('.top-content p');
 
